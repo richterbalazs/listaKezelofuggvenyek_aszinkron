@@ -1,0 +1,36 @@
+{ 
+    "emberekLISTA":
+     [
+        {
+            "id" : "1",
+            "nev": "Jenő",
+            "kor" : 23,
+            "nem": true
+        
+        },
+        {
+            "id" : "2",
+            "nev":"Juli",
+            "kor" :33,
+            "nem": false
+        },
+        {
+            "id" : "3",
+            "nev": "Géza",
+            "kor":13,
+            "nem": true
+        },   
+        {
+            "id" : "4",
+            "nev":"Ádám",
+            "kor" :13,
+            "nem": true
+        },
+        {
+            "id" : "5",
+            "nev":"Béla",
+            "kor":133,
+            "nem": true
+        }
+    ]
+}
