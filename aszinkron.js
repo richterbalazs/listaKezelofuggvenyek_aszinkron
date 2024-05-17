@@ -13,16 +13,16 @@ export function postAdat(vegpont,adat){
         body: JSON.stringify(adat),
     })
         .then((response) => response.json())
-        .then((data) => callback(data))
+        .then((data) => console.log(data))
         .catch((error) => console.log(error));
 }
 
-export function deleteAdat(vegpont,adat, id){
+export function deleteAdat(vegpont, id){
     fetch(vegpont+"/"+id, {
         method: "DELETE",
     })
         .then((response) => response.json())
-        .then((data) => callback(data))
+        .then((data) => console.log(data))
         .catch((error) => console.log(error));
 }
 
@@ -32,6 +32,6 @@ export function deeteAdat(vegpont,adat, id){
         body: JSON.stringify(adat),
     })
         .then((response) => response.json())
-        .then((data) => callback(data))
+        .then((data) => console.log(data))
         .catch((error) => console.log(error));
 }

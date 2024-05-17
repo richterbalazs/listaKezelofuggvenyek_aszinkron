@@ -1,6 +1,6 @@
 // import { emberekLISTA } from "./adat.js";
 import { rendez, szures, torol } from "./adatKezelo.js";
-import { getAdat } from "./aszinkron.js";
+import { deleteAdat, getAdat } from "./aszinkron.js";
 import { htmlOsszeallit, megjelenit } from "./listaMegjelenit.js";
 import { adatokListaba } from "./urlapkezelo.js";
 
@@ -63,6 +63,7 @@ function torolEsemeny(lista) {
     /*  event.target az az elem, amelyik kiváltotta az eseményt */
     let id = event.target.id;
     console.log(id);
+
     deleteAdat("http://localhost:3000/emberekLISTA",id)
   });
 }
